@@ -1,0 +1,8 @@
+
+$laptop: 1024px;
+
+@mixin laptop {
+  @media (min-width: #{$laptop}) {
+    @content;
+  }
+}
